@@ -1,6 +1,7 @@
 {
   "source": "systemd-analyze blame",
   "units": [
+    {"duration": "20min", "unit": "250ms wsl-pro.service"},
     {"duration": "7.918s", "unit": "apt-daily-upgrade.service"},
     {"duration": "1.299s", "unit": "motd-news.service"},
     {"duration": "658ms", "unit": "landscape-client.service"},
@@ -19,6 +20,7 @@
     {"duration": "72ms", "unit": "systemd-udev-trigger.service"},
     {"duration": "55ms", "unit": "logrotate.service"},
     {"duration": "55ms", "unit": "systemd-resolved.service"},
+    {"duration": "54ms", "unit": "packagekit.service"},
     {"duration": "50ms", "unit": "systemd-udevd.service"},
     {"duration": "49ms", "unit": "e2scrub_reap.service"},
     {"duration": "47ms", "unit": "systemd-tmpfiles-clean.service"},
